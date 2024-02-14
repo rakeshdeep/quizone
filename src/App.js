@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Content from './components/Content';
+import Footer from './components/Footer';
+import Heading from './components/Heading';
+import SideInfo from './components/SideInfo';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Heading title ="The Game Of Mind"/>
+    <main className="App">
+      <div className="app-container">
+      <Content />
+      <SideInfo />
+      </div>
+    </main>
+    <Footer />
+    </>
   );
 }
 

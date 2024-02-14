@@ -1,0 +1,10 @@
+.footer-content {
+    height: 200px;
+    background-color: #03030c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content p {
+    color: #fff;
+}

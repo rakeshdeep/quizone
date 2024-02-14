@@ -1,0 +1,22 @@
+.main-quiz-box {
+    padding: 10px ;
+    border: 1px solid rebeccapurple;
+    height: 400px;
+    width: 60%;
+    margin: 20px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.btn-content {
+    border: none;
+}
+.btn-content:first-child {
+    background-color: rebeccapurple;
+}
+.btn-content:nth-child(2) {
+    background-color: goldenrod;
+}
+.btn-content:first-child {
+    background-color: rebeccapurple;
+}

@@ -1,0 +1,18 @@
+{
+    "quizContainer" : [
+        {
+            "quize": "What is the capital of india?",
+            "optA":"Kolkata",
+            "optB":"Delhi",
+            "optC":"Bengaloro",
+            "optD":"Hydrabad"
+        },
+        {
+            "quize": "How is the Prime Minister of America",
+            "optA":"Narendra Modi",
+            "optB":"Mahatma Gandi",
+            "optC":"APJ Abdul Kalam",
+            "optD":"None of Anout"
+        }
+    ]
+}
