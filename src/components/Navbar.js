@@ -13,8 +13,7 @@ export default function Navbar(props) {
       </ul>
       <div className="search-box">
         <input type="search" name="search" placeholder='Search your Quiz' id="search" />
-        <button className="btn btn-primary" type='button'>Go</button>
-        <button type="button" className='btn-mode'></button>
+        <button className="btn  btn-primary btn-focus" type='button'>Go</button>
       </div>
     </nav>
   )

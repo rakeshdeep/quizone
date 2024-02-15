@@ -1,22 +1,97 @@
-.main-quiz-box {
-    padding: 10px ;
-    border: 1px solid rebeccapurple;
-    height: 400px;
-    width: 60%;
-    margin: 20px 5px;
+.main-container {
+    height: 80vh;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 20px;
+
+}
+
+.quiz-box {
+    margin: 5px 0px;
+    flex: 2;
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /* background: url('./images/quiz-bg.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mycarousel {
+    width: 39%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Style for Question.js file */
+.question-container {
+    /* border: 1px solid darkblue; */
+    width: 70%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.question,
+.options {
+    /* border: 1px solid rebeccapurple; */
+    box-shadow: 1px 1px 4px 0px #0000ff;
+    border-radius: 40px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    color: #fff;
+    background-color: #6f6fe7;
+    cursor: pointer;
+    min-height: 60px;
 }
-.btn-content {
+
+.question {
+    text-align: center;
+    padding: 2px;
+    grid-column: span 2;
+    font-size: 18px;
+}
+
+.special-btn {
+    grid-column: span 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btns {
+    padding: 10px 20px;
+    margin: 5px;
     border: none;
+    outline: none;
+    text-transform: capitalize;
+    border-radius: 15px;
+    flex: 1;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
 }
-.btn-content:first-child {
-    background-color: rebeccapurple;
+
+.pre,
+.next {
+    background-color: blueviolet;
 }
-.btn-content:nth-child(2) {
-    background-color: goldenrod;
+
+.submit {
+    background-color: greenyellow;
+    color: black;
 }
-.btn-content:first-child {
-    background-color: rebeccapurple;
+
+.btns:focus {
+    outline: 5px solid rgb(188, 127, 245);
+    background-color: rgb(78, 24, 129);
 }
+
