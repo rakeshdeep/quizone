@@ -1,0 +1,21 @@
+{
+    "data":[
+        {
+            "question":"Who is the prime minister of India ?",
+            "opt1":"APJ Abdul Kalam",
+            "opt2": "Bhim Rao Ambedkar",
+            "opt3":"Narendra Modi",
+            "opt4":"Nabin Patanayak",
+            "answer":"Narendra Modi"
+        },
+        {
+            "question":"Who is the chief minister of Bengal ?",
+            "opt1":"Yogi Aditya Nath",
+            "opt2": "Nabin Patanayak",
+            "opt3":"Mamata Benerjee",
+            "opt4":"Raja Ram Mohan Roy",
+            "answer":"Mamata Benerjee"
+
+        }
+    ]
+}
