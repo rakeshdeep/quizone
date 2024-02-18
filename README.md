@@ -2,7 +2,7 @@
 
 **this is a Simple Quiz Game using React-js**
 
-**This website using data from a json file using Fetch API**
+**Using Fetch API**
 
 <a href="#!">![Site Preview](./public/site-preview.png)</a>
 
