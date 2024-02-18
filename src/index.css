@@ -11,5 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* height: 100vh; */
+  /* background-image: url('./components/images/main-bg.jpg'); */
+  /* background-position: center; */
+  background-size: cover;
 }

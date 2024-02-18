@@ -5,19 +5,30 @@
     gap: 5px;
     align-items: center;
     justify-content: space-around;
-    margin: 0px 20px;
+    margin: 0px 0px;
+    background-image: url('./images/main-bg.jpg');
+    padding: 0px 20px;
 
+}
+
+.my-border {
+    box-shadow: 4px 4px 0px 3px #11172c;
+}
+
+.my-alert {
+    z-index: 100;
+    position: absolute;
+    margin: 5px 0px;
+    width: 100%;
 }
 
 .quiz-box {
     margin: 5px 0px;
     flex: 2;
-    /* border: 1px solid rebeccapurple; */
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    /* background: url('./images/quiz-bg.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -30,7 +41,6 @@
 
 /* Style for Question.js file */
 .question-container {
-    /* border: 1px solid darkblue; */
     width: 70%;
     height: 50%;
     display: grid;
@@ -42,16 +52,26 @@
 
 .question,
 .options {
-    /* border: 1px solid rebeccapurple; */
-    box-shadow: 1px 1px 4px 0px #0000ff;
     border-radius: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
-    background-color: #6f6fe7;
+    color: #000;
+    background-color: yellow;
     cursor: pointer;
     min-height: 60px;
+    border: none;
+    box-shadow: 7px 7px 3px 0px rgb(80, 80, 7);
+    font-weight: 600;
+
+}
+
+.options {
+    transform: scale(0.9);
+}
+
+.options:not(:focus) {
+    transform: scale(1);
 }
 
 .question {
@@ -59,6 +79,8 @@
     padding: 2px;
     grid-column: span 2;
     font-size: 18px;
+    background: rgb(255, 0, 85);
+    color: #fff;
 }
 
 .special-btn {
@@ -78,20 +100,58 @@
     cursor: pointer;
     color: #fff;
     font-weight: 500;
+    margin: 5px 10px;
+    animation: buttonEffect 0.2s 1;
 }
+
+.btns:focus {
+    outline: none !important;
+    animation: buttonEffect 0.2s 0 1 !important;
+}
+
+@keyframes buttonEffect {
+
+    0%,
+    100% {
+        transform: scale(1, 1);
+    }
+
+    25% {
+        transform: scale(0.9, 1.1);
+    }
+
+    50% {
+        transform: scale(1.1, 0.9);
+    }
+
+    75% {
+        transform: scale(0.95, 1.05);
+    }
+}
+
 
 .pre,
 .next {
-    background-color: blueviolet;
+    outline: 3px solid rgb(188, 127, 245) !important;
+    background-color: rgb(78, 24, 129);
+}
+
+.pre:focus,
+.next:focus {
+    background-color: rgb(78, 24, 100);
 }
 
 .submit {
     background-color: greenyellow;
+    outline: 3px solid rgba(172, 255, 47, 0.404) !important;
     color: black;
 }
 
-.btns:focus {
-    outline: 5px solid rgb(188, 127, 245);
-    background-color: rgb(78, 24, 129);
+.currectAns {
+    background: green;
+    box-shadow: 7px 7px 3px 0px rgba(0, 128, 0, 0.603);
 }
 
+.wrongAns {
+    background: red;
+}

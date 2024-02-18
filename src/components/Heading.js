@@ -6,17 +6,19 @@ import './Heading.css';
 
 export default function Heading(props) {
   return (
-    <header className='app-header'>
-      <h1>{props.title}</h1>
+    <>
+      <header className='app-header'>
+        <h1>{props.title}</h1>
+      </header>
       <Navbar />
-    </header>
+    </>
   )
 }
 
 Heading.propTypes = {
-    title: PropTypes.string
+  title: PropTypes.string
 }
 Heading.defaultProps = {
-    title: "set title here"
+  title: "set title here"
 }
 

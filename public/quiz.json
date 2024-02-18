@@ -1,20 +1,52 @@
 {
     "data":[
         {
+            "id":0,
             "question":"Who is the prime minister of India ?",
             "opt1":"APJ Abdul Kalam",
             "opt2": "Bhim Rao Ambedkar",
             "opt3":"Narendra Modi",
             "opt4":"Nabin Patanayak",
-            "answer":"Narendra Modi"
+            "correctOpt":"Narendra Modi"
         },
         {
+            "id":1,
             "question":"Who is the chief minister of Bengal ?",
             "opt1":"Yogi Aditya Nath",
             "opt2": "Nabin Patanayak",
             "opt3":"Mamata Benerjee",
             "opt4":"Raja Ram Mohan Roy",
-            "answer":"Mamata Benerjee"
+            "correctOpt":"Mamata Benerjee"
+
+        },
+        {
+            "id":2,
+            "question":"What is the Capital of Tamil Nadu ?",
+            "opt1":"Bhubaneswar",
+            "opt2": "Chennai",
+            "opt3":"Kolkata",
+            "opt4":"Bengoluru",
+            "correctOpt":"Chennai"
+
+        },
+        {
+            "id":3,
+            "question":"How is the writer of Indian Constitution ?",
+            "opt1":"Narendra Modi",
+            "opt2": "Subash chandra Bose",
+            "opt3":"Dr BR Ambedkar",
+            "opt4":"Mahatma Gandi",
+            "correctOpt":"Dr BR Ambedkar"
+
+        },
+        {
+            "id":4,
+            "question":"who is the Founder of Facebook(Meta) ?",
+            "opt1":"Steve Jobs",
+            "opt2": "Elon Musk",
+            "opt3":"Jeff Bezos",
+            "opt4":"Mark Zuckerberg",
+            "correctOpt":"Mark Zuckerberg"
 
         }
     ]
