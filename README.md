@@ -4,13 +4,18 @@
 
 **Using Fetch API**
 
+
+
+**Site Preview:-**
 <a href="#!">![Site Preview](./public/site-preview.png)</a>
+
+
+<a href="#!">![Site Preview](./public/wrong-ans-preview.png)</a>
 
 <a href="#!" align="center">Live site is not available yet .</a>
 
 - Some Key points about this repo:
    - This is a simple quiz website repo
-   - If you are reading this, then this site is not responsive yet.
    - it is a very simple and user friendly quiz game
    - Contents of this site is comming from a JSON file using Fetch API.
 

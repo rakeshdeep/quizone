@@ -1,0 +1,18 @@
+.my-navbar {
+    box-shadow: 1px 5px 10px 3px #000;
+    position: sticky;
+    top: 0;
+    background: rgb(226, 226, 228);
+    padding: 0px 0px;
+    z-index: 99;
+}
+
+.navbar-brand h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blueviolet;
+}
+.nav-link {
+    font-weight: 500;
+    color: #0a0a3d;
+    font-size: 17px;
+}

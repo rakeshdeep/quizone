@@ -2,15 +2,15 @@ import React from 'react'
 import './Content.css';
 import Question from './Question';
 
-import CarousalImage1 from './images/quiz-slide1.jpg'
-import CarousalImage2 from './images/quiz-slid2.jpg'
-import CarousalImage3 from './images/quiz-slid3.jpg'
+import CarousalImage1 from './images/quiz-slide1.jpg';
+import CarousalImage2 from './images/quiz-slid2.jpg';
+import CarousalImage3 from './images/quiz-slid3.jpg';
 
 export default function Content() {
   return (
     <>
-      <div className="alert alert-warning alert-dismissible fade my-alert" id='alertbox' role="alert">
-        <strong>Narendra Modi !</strong> You Choose the correct option Congratulations.
+      <div className="alert alert-warning alert-dismissible fade my-alert " id='alertbox' role="alert">
+
       </div>
       <main className='main-container'>
 

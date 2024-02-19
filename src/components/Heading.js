@@ -1,6 +1,6 @@
-import React from 'react'
-import Navbar from './Navbar'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Navigation from './Navigation';
 
 import './Heading.css';
 
@@ -10,7 +10,7 @@ export default function Heading(props) {
       <header className='app-header'>
         <h1>{props.title}</h1>
       </header>
-      <Navbar />
+      <Navigation />
     </>
   )
 }

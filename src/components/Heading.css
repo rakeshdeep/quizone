@@ -1,9 +1,8 @@
 .app-header {
-    /* border: 1px solid orange; */
-    /* height: 200px; */
+    height: 150px;
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-between;
+    justify-content: center;
     color: #fff;
     text-transform: capitalize;
     font-size: 25px;
@@ -14,7 +13,17 @@
 .app-header h1 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
-    font-size: 60px;
-    margin: 20px 0px;
+    font-size: 40px;
+    margin: 10px 0px;
     align-self: center;
+}
+
+@media screen and (min-width:780px) {
+    .app-header {
+        height: auto;
+    }
+    .app-header h1 {
+        font-size: 60px;
+        margin: 20px 0px;
+    }
 }
