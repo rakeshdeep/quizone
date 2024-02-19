@@ -6,10 +6,10 @@
 
 
 
-**Site Preview:-**
+**Site Preview Correct Answer:-**
 <a href="#!">![Site Preview](./public/site-preview.png)</a>
 
-
+***Site Preview Wrong Answer**
 <a href="#!">![Site Preview](./public/wrong-ans-preview.png)</a>
 
 <a href="#!" align="center">Live site is not available yet .</a>
