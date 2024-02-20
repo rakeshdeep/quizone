@@ -48,6 +48,70 @@
             "opt4":"Mark Zuckerberg",
             "correctOpt":"Mark Zuckerberg"
 
-        }
+        },
+        {
+            "id":5,
+            "question":"What is the purpose of an operating system?",
+            "opt1":"To manage hardware resources and provide services to applications",
+            "opt2":"To write programs and develop software",
+            "opt3":"To design computer networks",
+            "opt4":"To create user interfaces",
+             "correctOpt":" a) To manage hardware resources and provide services to applications"
+            },
+            {
+                "id":6,
+                "question":"Which of the following data structures follows the Last In First Out (LIFO) principle?",
+                "opt1":"Queue",
+                "opt2":"Stack",
+                "opt3":"Linked List",
+                "opt4":"Tree",
+                "correctOpt":" b) Stack"
+            },
+            {
+                "id":7,
+                "question":"What is the time complexity of the quicksort algorithm in the best-case scenario?",
+                "opt1":"O(n)",
+                "opt2":"O(n log n)",
+                "opt3":"O(n^2)",
+                "opt4":"O(log n)",
+                "correctOpt":"O(n log n)"
+            },
+            {
+                "id":8,
+                "question":"What does HTML stand for?",
+                "opt1":"Hyper Text Markup Language",
+                "opt2":"High-Level Markup Language",
+                "opt3":"Home Tool Markup Language",
+                "opt4":"Hyperlink and Text Management Language",
+                "correctOpt":" Hyper Text Markup Language"
+            },
+            {
+                "id":9,
+                "question":"Which of the following programming languages is not statically typed?",
+                "opt1":"C++",
+                "opt2":"Java",
+                "opt3":"Python",
+                "opt4":"TypeScript",
+                "correctOpt":"Python"
+            },
+            {
+                "id":10,
+                "question":"What does SQL stand for?",
+                "opt1":"Structured Query Language",
+                "opt2":"Sequential Query Language",
+                "opt3":"Simple Query Language",
+                "opt4":"Structured Question Language",
+                "correctOpt":"Structured Query Language"
+            },
+            {
+                "id":11,
+                "question":"What does the acronym 'HTTP' stand for?",
+                "opt1":"Hyperlink Text Transfer Protocol",
+                "opt2":"Hypertext Transfer Protocol",
+                "opt3":"Hyper Text Terminal Protocol",
+                "opt4":"High Transmission Transfer Protocol",
+                "correctOpt":"Hypertext Transfer Protocol"
+
+            }
     ]
 }
