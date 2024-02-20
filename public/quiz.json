@@ -48,6 +48,33 @@
             "opt4":"Mark Zuckerberg",
             "correctOpt":"Mark Zuckerberg"
 
+        },
+        {
+            "id":5,
+            "question":"Who is the father of Python programming language ?",
+            "opt1":"Guido Van Rossum",
+            "opt2": "Charles babbage",
+            "opt3":"Dennis ritchie",
+            "opt4":"Mark Zuckerberg",
+            "correctOpt":"Guido Van Rossum" 
+        },
+        {
+            "id":6,
+            "question":"when was the first computer invented ?",
+            "opt1":"1700",
+            "opt2": "1800",
+            "opt3":"1837",
+            "opt4":"1910",
+            "correctOpt":"1837" 
+        },
+        {
+            "id":7,
+            "question":"What is the first computer game in the world ?",
+            "opt1":"Tic Tac Toe",
+            "opt2": "dragon king",
+            "opt3":"plapy bird",
+            "opt4":"spacewar!",
+            "correctOpt":"spacewar!" 
         }
     ]
 }
